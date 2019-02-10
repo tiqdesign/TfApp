@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+	 android:background="@drawable/background"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1"
+		android:gravity="center"
+		android:layout_marginBottom="0.0dp">
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="match_parent"
+			android:layout_height="315.0dp"
+			android:scaleType="fitCenter"
+			android:id="@+id/ımageView1"
+			android:layout_marginBottom="0.0dp" />
+		<Button
+			android:text="Get Image"
+			android:background="@drawable/background"
+			android:textColor="@android:color/white"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/btn_get" />
+		
+		
+		<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/linearLayout3" >
+
+			
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				
+				android:id="@+id/linearLayout5" >
+				<LinearLayout
+					android:orientation="vertical"
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/linearLayout6" >
+					<TextView
+						android:textColor="@android:color/white"
+						android:text=""
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						
+						android:layout_height="wrap_content"
+						android:id="@+id/txt_hex" />
+					<TextView
+						android:textColor="@android:color/white"
+						android:text=""
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/txt_rgb" />
+				</LinearLayout>
+				<LinearLayout
+					android:orientation="horizontal"
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:layout_width="match_parent"
+					android:background="@drawable/background"
+					android:layout_height="match_parent"
+					android:id="@+id/linearLayout7" >
+					<LinearLayout
+					android:orientation="vertical"
+					android:minWidth="25px"
+					android:gravity="center_vertical"
+					android:minHeight="25px"
+					android:layout_width="100dp"
+					android:layout_height="match_parent"
+					android:id="@+id/linearLayout4" />
+					<ImageButton
+						android:src="@drawable/add2"
+						android:layout_marginLeft="30dp"
+						android:background="@android:color/transparent"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:id="@+id/btn_add" />
+					<ImageButton
+						android:src="@drawable/cop3"
+						android:layout_marginLeft="60dp"
+						android:background="@android:color/transparent"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:id="@+id/btn_copy" />
+					
+					
+			</LinearLayout>
+				
+			</LinearLayout>
+			</LinearLayout>
+			
+		</LinearLayout>
+	
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:background="@drawable/background"
+    android:layout_width="match_parent"
+	android:gravity="center"
+    android:layout_height="match_parent">
+
+	<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="match_parent"
+			android:layout_height="300dp"
+			android:scaleType="centerInside"
+			android:id="@+id/img_text" />
+	<Button
+		android:text="Get Image"
+		android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:background="@drawable/background"
+		android:textColor="@android:color/white"
+		android:id="@+id/btn_galery" />
+	<Button
+		android:text="Get Text"
+		android:layout_width="250dp"
+		android:background="@drawable/background"
+		android:textColor="@android:color/white"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn_text" />
+	<android.support.design.widget.TextInputEditText
+		android:layout_width="250dp"
+		android:textColor="@android:color/white"
+		android:layout_height="wrap_content"
+		android:id="@+id/text" />
+
+
+</LinearLayout>

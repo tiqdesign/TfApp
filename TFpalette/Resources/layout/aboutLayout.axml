@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<ScrollView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@drawable/background"
+		android:id="@+id/scrollView1">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/linearLayout1">
+			<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:background="@android:color/transparent"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout2">
+				<ImageView
+					android:layout_width="match_parent"
+					android:layout_height="200dp"
+					android:layout_marginTop="20dp"
+					android:src="@drawable/tfApp"
+					android:scaleType="centerInside"
+					android:id="@+id/ımageView1" />
+				<TextView
+					android:text="About"
+					android:layout_marginTop="10dp"
+					android:textAlignment="center"
+					android:textColor="#FFFFFF"
+					android:textSize="16dp"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView1" />
+			</LinearLayout>
+
+		    <LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:background="@android:color/transparent"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout3">
+			
+			<TextView
+					android:text="TF APP"
+					android:textAlignment="center"
+					android:layout_width="match_parent"
+					android:textColor="#FFFFFF"
+					android:layout_marginTop="10dp"
+					android:layout_height="wrap_content"
+					android:textSize="20dp"
+					android:id="@+id/textView3" />
+				<TextView
+					android:textAlignment="center"
+					android:layout_marginTop="10dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					
+					android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum libero purus, quis ultrices erat egestas ac. Praesent sollicitudin, nulla id finibus maximus, enim enim commodo magna, eget consectetur elit sem vestibulum odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam mollis et ex nec condimentum. Morbi vehicula vehicula porttitor. Maecenas pulvinar, dolor vel mollis congue, leo felis volutpat tortor, non volutpat ipsum mi at ipsum. Vivamus id justo magna. Sed non gravida tellus. Maecenas eu quam non sem ultrices euismod vitae a eros. Suspendisse rhoncus tortor in elit elementum maximus ut at nisl. Ut laoreet fermentum sapien, ut luctus justo auctor sed. Cras lobortis ultricies nunc, vel vulputate sapien luctus in. Aliquam erat volutpat."
+					android:layout_width="match_parent"
+					android:textColor="#FFFFFF"
+					android:textSize="16dp"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView4" />
+
+				<TextView
+					android:textAlignment="center"
+					android:layout_marginTop="10dp"
+					android:layout_marginLeft="10dp"
+					
+					android:layout_marginRight="10dp"
+					android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum libero purus, quis ultrices erat egestas ac. Praesent sollicitudin, nulla id finibus maximus, enim enim commodo magna, eget consectetur elit sem vestibulum odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam mollis et ex nec condimentum. Morbi vehicula vehicula porttitor. Maecenas pulvinar, dolor vel mollis congue, leo felis volutpat tortor, non volutpat ipsum mi at ipsum. Vivamus id justo magna. Sed non gravida tellus. Maecenas eu quam non sem ultrices euismod vitae a eros. Suspendisse rhoncus tortor in elit elementum maximus ut at nisl. Ut laoreet fermentum sapien, ut luctus justo auctor sed. Cras lobortis ultricies nunc, vel vulputate sapien luctus in. Aliquam erat volutpat."
+					android:layout_width="match_parent"
+					android:textColor="#FFFFFF"
+					android:textSize="16dp"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView5" />
+
+			</LinearLayout>
+
+
+		</LinearLayout>
+
+		
+	</ScrollView>
+
+</LinearLayout>

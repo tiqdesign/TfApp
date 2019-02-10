@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:background="@drawable/background"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:id="@+id/linearLayout1"
+		android:layout_marginBottom="0.0dp">
+		<ImageButton
+			android:background="@android:color/transparent"
+			android:src="@drawable/text"
+			android:fadingEdge="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/ımageButton1" />
+		<TextView
+			android:text="Get Image..."
+			android:textAlignment="center"
+			android:textColor="@android:color/white"
+			android:textSize="30dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView1" />
+		<LinearLayout
+			android:gravity="center"
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout2" >
+			
+			<Button
+		    android:layout_marginTop="-5dp"
+			android:layout_marginRight="10dp"
+			android:text="From Url"
+			android:textColor="@android:color/white"
+			android:background="@drawable/background"
+			android:layout_width="150dp"
+			
+			android:layout_height="wrap_content"
+			android:id="@+id/btn_openUrl" />
+			<Button
+		    android:layout_marginTop="-5dp"
+			android:text="From Galery"
+			android:textColor="@android:color/white"
+			android:background="@drawable/background"
+			android:layout_width="150dp"
+			android:gravity="center"
+			android:layout_height="wrap_content"
+			android:id="@+id/btn_openGalery" />
+			</LinearLayout>
+	
+		<android.support.design.widget.TextInputEditText
+			android:layout_marginTop="10dp"
+			android:layout_width="300dp"
+			android:textColorHint="@android:color/white"
+			android:hint="Url"
+			android:visibility="invisible"
+			android:textColor="@android:color/white"
+			android:layout_height="wrap_content"
+			android:id="@+id/txt_url" />
+		<Button
+		    android:layout_marginTop="-5dp"
+			android:text="Get Image"
+			android:textColor="@android:color/white"
+			android:background="@drawable/background"
+			android:layout_width="200dp"
+			android:gravity="center"
+			android:visibility="invisible"
+			android:layout_height="wrap_content"
+			android:id="@+id/btn_getUrl" />
+		
+		
+	</LinearLayout>
+
+</RelativeLayout>
